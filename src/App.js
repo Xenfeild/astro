@@ -2,7 +2,14 @@
 // import './App.css';
 import Navbar from './components/navigation/Navbar';
 import Hero from './components/Hero';
-import SectionFeatures from './components/navigation/SectionFeatures';
+import SectionFeatures from './components/SectionFeatures';
+import SectionInside from './components/SectionInside';
+import SectionComponents from './components/SectionComponents';
+import SectionBlog from './components/SectionBlog';
+import SectionFaq from './components/SectionFaq';
+import FooterTop from './components/FooterTop';
+import FooterBottom from './components/FooterBottom';
+
 
 function App() {
   return (
@@ -14,7 +21,23 @@ function App() {
         <section>
           <SectionFeatures/>
         </section>
+        <section>
+          <SectionInside/>
+        </section>
+        <section>
+          <SectionComponents/>
+        </section>
+        <section>
+          <SectionBlog/>
+        </section>
+        <section>
+          <SectionFaq/>
+        </section>
       </main>
+      <footer>
+        <FooterTop/>
+        <FooterBottom/>
+      </footer>
       
     </div>
   );
