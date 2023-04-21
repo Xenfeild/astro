@@ -9,6 +9,7 @@ import SectionBlog from './components/SectionBlog';
 import SectionFaq from './components/SectionFaq';
 import FooterTop from './components/FooterTop';
 import FooterBottom from './components/FooterBottom';
+import SectionFeaturesCorrection from './components/SectionFeaturesCorrection';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <main>
         <section>
           <SectionFeatures/>
+          <SectionFeaturesCorrection/>
         </section>
         <section>
           <SectionInside/>
