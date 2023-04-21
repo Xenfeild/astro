@@ -12,7 +12,7 @@ export default function FooterBottom() {
         <div className="flex items-center space-x-2">
           <MdOutlineWidgets/>
         <p>
-            Made by onWidget - All Rights reserves.
+            Made by <span className="text-blue-500">onWidget</span> - All Rights reserves.
         </p>
         </div>
         <div className="flex space-x-5">
