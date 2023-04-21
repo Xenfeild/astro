@@ -10,6 +10,9 @@ import SectionFaq from './components/SectionFaq';
 import FooterTop from './components/FooterTop';
 import FooterBottom from './components/FooterBottom';
 import SectionFeaturesCorrection from './components/SectionFeaturesCorrection';
+import SectionInsideCorrection from './components/SectionInsideCorrection';
+import SectionComponentsCorrection from './components/SectionComponentsCorrection';
+import SectionSteps from './components/navigation/SectionSteps';
 
 
 function App() {
@@ -20,14 +23,17 @@ function App() {
       <Hero/>
       <main>
         <section>
-          <SectionFeatures/>
+          {/* <SectionFeatures/> */}
           <SectionFeaturesCorrection/>
         </section>
         <section>
-          <SectionInside/>
+          {/* <SectionInside/> */}
+          <SectionInsideCorrection/>
+          <SectionSteps/>
         </section>
         <section>
           <SectionComponents/>
+          <SectionComponentsCorrection/>
         </section>
         <section>
           <SectionBlog/>

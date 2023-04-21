@@ -2,7 +2,7 @@ import { BsInfoSquare } from "react-icons/bs";
 import TitleSection from "./TitleSection";
 import Card from "./cards/Card";
 import { DataCards } from "./data/DataCardFeature";
-console.log(DataCards);
+console.log(DataCards)
 
 export default function SectionFeatures() {
   return (

@@ -1,11 +1,11 @@
-// note ceci sert uniquement à la correction on va pas l'intégrer pendant que Mit fais sont speach mais on verra ca plus tard pour savoir comment ça marche
+
 
 
 export const DataCards = [
   {
   title:"Astrowind + css",
   description:'A seamless integration between two great frameworks that offer high productivity, performance and versatillity',
-  icon: "l'icone de ton choix"
+  icon: "Icone"
   },
   {
   title:"Ready-to-use Components",
