@@ -5,7 +5,7 @@ import SectionInsideTemplates3 from "./templates/SectionInsideTemplates3"
 
 export default function SectionInside() {
   return (
-    <div className="">
+    <div className="bg-cyan-50 pt-10">
         <TitleSection title="Inside template" subtitle="And what's inside?..."/>
         <SectionInsideTemplates/>
         <SectionInsideTemplates2/>

@@ -12,7 +12,7 @@ export default function Hero() {
             <ButtonWithIcon title="Get template" bgColor='bg-blue-700' textColor={'text-white'}/>
             <Button title="Learn more"/>
         </div>
-        <div className="pt-10">
+        <div className="pt-10 flex justify-center">
             <img src="img/1.png" alt="hero astro" />
         </div>
     </div>

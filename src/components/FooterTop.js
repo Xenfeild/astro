@@ -6,7 +6,7 @@ export default function FooterTop() {
     <div className='border-t-2 '>
         <div className='p-10 flex justify-around '>
             <TitleSection subtitle="AstroWind" description="Terms Privacy Policy"/>
-            <div>
+            <div className='space-x-30'>
                 <ul>
                     <li className='font-bold my-2'>Product</li>
                     <li className='my-2'>Features</li>
